@@ -1,5 +1,18 @@
 button{
-    background-color: aqua;
+    background-color: gray;
+    border: solid;
+    border-radius: 10px;
+    height: 50px;
+    width: auto;
+    color: white;
+
+}
+
+p{
+    margin: 20px;
     border: solid;
     border-radius: 5px;
+    border-color:cadetblue;
+    background-color: cadetblue;
+    color: white;
 }
