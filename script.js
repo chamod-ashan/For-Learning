@@ -1,6 +1,6 @@
-function clickevent(){
-    document.write("hello all this is your first java script event");
-}
+//function clickevent(){
+    //document.write("hello all this is your first java script event");
+//}
 /*document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("pid").onclick = function () {
         alert("clicked the paragraph");
@@ -8,7 +8,12 @@ function clickevent(){
 });*/
 $(document).ready(function () {
     $('#pid').click(function () {
-        alert("clicked the paragraph!!!");
+        $(this).hide();
     });
 });
 
+$(document).ready(function(){
+    $("#but").dblclick(function(){
+        alert("you double clicked this button!!");
+    })
+})
